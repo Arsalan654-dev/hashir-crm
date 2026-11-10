@@ -11,3 +11,7 @@ dist/
 .agents/
 .playwright-mcp/
 .phpunit.result.cache
+hashir_bhai_crm_backend/hashir_bhai_crm
+*.sqlite
+*.sqlite3
+*.db

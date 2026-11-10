@@ -1,0 +1,1 @@
+ClassicEditor.create(document.querySelector("#email-editor")).then(function(e){e.ui.view.editable.element.style.height="200px";e.model.document.on("change:data",function(){var t=document.querySelector("#email-body-field");if(t){t.value=e.getData()}})}).catch(function(e){console.error(e)});
