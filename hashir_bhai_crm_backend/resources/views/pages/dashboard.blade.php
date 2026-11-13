@@ -393,7 +393,7 @@
                     series: [{ name: 'Sales', data: monthlyTrend.map(function (r) { return Math.round(r.total); }) }],
                     xaxis: { categories: monthlyTrend.map(function (r) { return r.salesperson ? r.salesperson.name : 'N/A'; }) },
                     plotOptions: { bar: { horizontal: true, borderRadius: 4, distributed: true } },
-                    colors: ['#1e7df0', '#34c38f', '#50a5f1', '#f1b44c', '#f46a6a', '#74788d', '#556ee6', '#2a9d8f'],
+                    colors: ['#1e7df0', '#34c38f', '#50a5f1', '#f1b44c', '#f46a6a', '#74788d', '#7C3AED', '#2a9d8f'],
                     dataLabels: { enabled: true, formatter: function (v) { return '{{ \App\Support\Branding::currencySymbol() }}' + v; } },
                     legend: { show: false },
                 }).render();

@@ -4,12 +4,12 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Profile | Cyprus Digital Solution</title>
+        <title>Profile | Jaffri's CRM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Cyprus Digital Solution CRM & ERP" name="description" />
-        <meta content="Themesdesign" name="author" />
+        <meta content="Jaffri's CRM CRM & ERP" name="description" />
+        <meta content="Arsalan Jaffri" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon-cyprus.svg">
+        <link rel="shortcut icon" href="assets/images/favicon-jaffri.png">
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -37,19 +37,19 @@
                 <div class="navbar-brand-box">
                     <a href="/" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="assets/images/logo-cyprus-mark.svg" alt="" height="26">
+                            <img src="assets/images/logo-jaffri-mark.png" alt="" height="26">
                         </span>
                         <span class="logo-lg">
-                            <img src="assets/images/logo-cyprus.svg" alt="" height="28">
+                            <img src="assets/images/logo-jaffri.png" alt="" height="28">
                         </span>
                     </a>
 
                     <a href="/" class="logo logo-light">
                         <span class="logo-lg">
-                            <img src="assets/images/logo-cyprus-light.svg" alt="" height="30">
+                            <img src="assets/images/logo-jaffri-light.png" alt="" height="30">
                         </span>
                         <span class="logo-sm">
-                            <img src="assets/images/logo-cyprus-mark.svg" alt="" height="26">
+                            <img src="assets/images/logo-jaffri-mark.png" alt="" height="26">
                         </span>
                     </a>
                 </div>
@@ -704,7 +704,7 @@
                                         <h5 class="card-title mb-0">Weekly Hours</h5>
                                     </div>
                                     <div class="card-body">
-                                        <div id="overview-chart" data-colors='["#1f58c7"]' class="apex-charts" dir="ltr"></div>
+                                        <div id="overview-chart" data-colors='["#312E81"]' class="apex-charts" dir="ltr"></div>
                                     </div>
                                 </div>
                             </div>
@@ -908,11 +908,11 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Cyprus Digital Solution.
+                                <script>document.write(new Date().getFullYear())</script> © Jaffri's CRM.
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-sm-end d-none d-sm-block">
-                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesdesign.in/" target="_blank" class="text-reset">Themesdesign</a>
+                                    Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://arsalan-portfolio-eight.vercel.app" target="_blank" class="text-reset">Arsalan Jaffri</a>
                                 </div>
                             </div>
                         </div>

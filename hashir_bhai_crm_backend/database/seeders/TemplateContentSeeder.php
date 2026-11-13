@@ -123,14 +123,14 @@ class TemplateContentSeeder extends Seeder
 
         // Todos (template-style)
         $todos = [
-            ['title' => 'Create a webadmin Dashboard', 'team' => 'Product Design', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 7],
+            ['title' => 'Create a Jaffri's CRM Dashboard', 'team' => 'Product Design', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 7],
             ['title' => 'Create a New Landing', 'team' => 'Development', 'status' => 'Approved', 'is_completed' => true, 'comments' => 8],
-            ['title' => 'Create a webadmin Logo', 'team' => 'Illustration', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 5],
+            ['title' => 'Create a Jaffri's CRM Logo', 'team' => 'Illustration', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 5],
             ['title' => 'Redesign - Landing page', 'team' => 'Design', 'status' => 'Completed', 'is_completed' => false, 'comments' => 7],
             ['title' => 'Create a Blog Template', 'team' => 'Angular', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 5],
             ['title' => 'Minimal Multipurpose Landing', 'team' => 'Backend', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 2],
             ['title' => 'Fix Responsivenes for structure', 'team' => 'Development', 'status' => 'Completed', 'is_completed' => false, 'comments' => 5],
-            ['title' => 'Create a webadmin Dashboard', 'team' => 'Illustration', 'status' => 'Approved', 'is_completed' => true, 'comments' => 9],
+            ['title' => 'Create a Jaffri's CRM Dashboard', 'team' => 'Illustration', 'status' => 'Approved', 'is_completed' => true, 'comments' => 9],
             ['title' => 'New Widgets For Dashboard', 'team' => 'Design', 'status' => 'Waiting', 'is_completed' => false, 'comments' => 10],
             ['title' => 'Old Landing Re-Design', 'team' => 'Angular', 'status' => 'Approved', 'is_completed' => true, 'comments' => 5],
             ['title' => 'Create a Landing Page', 'team' => 'Design', 'status' => 'Completed', 'is_completed' => false, 'comments' => 6],
@@ -211,7 +211,7 @@ class TemplateContentSeeder extends Seeder
             ['name' => 'Projects', 'type' => 'folder', 'size' => null, 'icon' => 'bx bx-folder', 'icon_class' => 'text-warning'],
             ['name' => 'Design', 'type' => 'folder', 'size' => null, 'icon' => 'bx bx-folder', 'icon_class' => 'text-warning'],
             ['name' => 'Images', 'type' => 'folder', 'size' => null, 'icon' => 'bx bx-folder', 'icon_class' => 'text-warning'],
-            ['name' => 'webadmin-docs.pdf', 'type' => 'file', 'size' => '2.5 MB', 'icon' => 'bx bx-file', 'icon_class' => 'text-danger'],
+            ['name' => 'Jaffri's CRM-docs.pdf', 'type' => 'file', 'size' => '2.5 MB', 'icon' => 'bx bx-file', 'icon_class' => 'text-danger'],
             ['name' => 'dashboard-report.xlsx', 'type' => 'file', 'size' => '512 KB', 'icon' => 'bx bx-file', 'icon_class' => 'text-success'],
             ['name' => 'profile-photo.jpg', 'type' => 'file', 'size' => '1.2 MB', 'icon' => 'bx bx-image', 'icon_class' => 'text-primary'],
             ['name' => 'promo-video.mp4', 'type' => 'file', 'size' => '340 KB', 'icon' => 'bx bx-video', 'icon_class' => 'text-info'],

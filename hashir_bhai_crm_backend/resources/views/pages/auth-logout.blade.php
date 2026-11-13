@@ -4,12 +4,12 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Logout | Cyprus Digital Solution</title>
+        <title>Logout | Jaffri's CRM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Cyprus Digital Solution CRM & ERP" name="description" />
-        <meta content="Themesdesign" name="author" />
+        <meta content="Jaffri's CRM CRM & ERP" name="description" />
+        <meta content="Arsalan Jaffri" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon-cyprus.svg">
+        <link rel="shortcut icon" href="assets/images/favicon-jaffri.png">
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -34,8 +34,8 @@
 
                         <div class="mb-4 pb-2">
                             <a href="/" class="d-block auth-logo">
-                                <img src="assets/images/logo-cyprus.svg" alt="" height="30" class="auth-logo-dark me-start">
-                                <img src="assets/images/logo-cyprus-light.svg" alt="" height="30" class="auth-logo-light me-start">
+                                <img src="assets/images/logo-jaffri.png" alt="" height="30" class="auth-logo-dark me-start">
+                                <img src="assets/images/logo-jaffri-light.png" alt="" height="30" class="auth-logo-light me-start">
                             </a>
                         </div>
 
@@ -50,7 +50,7 @@
 
                                     <div class="mt-4 pt-2">
                                         <h5>You are Logged Out</h5>
-                                        <p class="text-muted font-size-15">Thank you for using <span class="fw-semibold text-body">Cyprus Digital Solution</span></p>
+                                        <p class="text-muted font-size-15">Thank you for using <span class="fw-semibold text-body">Jaffri's CRM</span></p>
                                         <div class="mt-4">
                                             <a href="/auth-login" class="btn btn-primary w-100 waves-effect waves-light">Sign In</a>
                                         </div>
@@ -66,7 +66,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center p-4">
-                            <p>© <script>document.write(new Date().getFullYear())</script> Cyprus Digital Solution. All rights reserved.</p>
+                            <p>© <script>document.write(new Date().getFullYear())</script> Jaffri's CRM. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

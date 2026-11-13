@@ -11,7 +11,7 @@
             <div class="navbar-brand-box">
                 <a href="{{ url('/') }}" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/images/logo-cyprus-mark.svg') }}" alt="{{ \App\Support\Branding::name() }}" height="26">
+                        <img src="{{ asset('assets/images/logo-jaffri-mark.png') }}" alt="{{ \App\Support\Branding::name() }}" height="26">
                     </span>
                     <span class="logo-lg">
                         <img src="{{ asset(\App\Support\Branding::logo()) }}" alt="{{ \App\Support\Branding::name() }}" height="30">
@@ -20,7 +20,7 @@
 
                 <a href="{{ url('/') }}" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/images/logo-cyprus-mark.svg') }}" alt="{{ \App\Support\Branding::name() }}" height="26">
+                        <img src="{{ asset('assets/images/logo-jaffri-mark.png') }}" alt="{{ \App\Support\Branding::name() }}" height="26">
                     </span>
                     <span class="logo-lg">
                         <img src="{{ asset(\App\Support\Branding::logo(true)) }}" alt="{{ \App\Support\Branding::name() }}" height="30">

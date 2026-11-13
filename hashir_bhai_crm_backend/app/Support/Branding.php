@@ -6,7 +6,7 @@ use App\Models\Setting;
 
 class Branding
 {
-    public const NAME = 'Cyprus Digital Solution';
+    public const NAME = 'Jaffri\'s CRM';
 
     public static function name(): string
     {
@@ -15,29 +15,29 @@ class Branding
 
     public static function tagline(): string
     {
-        return (string) Setting::getValue('brand.tagline', 'CRM & ERP Suite');
+        return (string) Setting::getValue('brand.tagline', 'Customer Relationship Management');
     }
 
     public static function logo(bool $light = false): string
     {
         $key = $light ? 'brand.logo_light' : 'brand.logo_dark';
 
-        return (string) Setting::getValue($key, $light ? 'assets/images/logo-cyprus-light.svg' : 'assets/images/logo-cyprus.svg');
+        return (string) Setting::getValue($key, $light ? 'assets/images/logo-jaffri-light.png' : 'assets/images/logo-jaffri.png');
     }
 
     public static function logoMark(): string
     {
-        return (string) Setting::getValue('brand.logo_mark', 'assets/images/logo-cyprus-mark.svg');
+        return (string) Setting::getValue('brand.logo_mark', 'assets/images/logo-jaffri-mark.png');
     }
 
     public static function favicon(): string
     {
-        return (string) Setting::getValue('brand.favicon', 'assets/images/logo-cyprus-mark.svg');
+        return (string) Setting::getValue('brand.favicon', 'assets/images/favicon-jaffri.png');
     }
 
     public static function primaryColor(): string
     {
-        return (string) Setting::getValue('theme.primary_color', '#1f58c7');
+        return (string) Setting::getValue('theme.primary_color', '#312E81');
     }
 
     public static function sidebarStyle(): string

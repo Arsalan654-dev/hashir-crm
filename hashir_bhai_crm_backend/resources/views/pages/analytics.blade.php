@@ -437,7 +437,7 @@
             donut('#cds-analytics-lead-status', statusLabels, statusLabels.map(function (k) { return leadStatus[k]; }), ['#1e7df0', '#34c38f', '#f1b44c', '#f46a6a', '#50a5f1', '#74788d', '#343a40']);
 
             var sourceLabels = Object.keys(leadSource).map(function (k) { return String(k).replace(/_/g, ' '); });
-            donut('#cds-analytics-lead-source', sourceLabels, Object.keys(leadSource).map(function (k) { return leadSource[k]; }), ['#1e7df0', '#34c38f', '#50a5f1', '#f1b44c', '#f46a6a', '#74788d', '#556ee6', '#2a9d8f']);
+            donut('#cds-analytics-lead-source', sourceLabels, Object.keys(leadSource).map(function (k) { return leadSource[k]; }), ['#1e7df0', '#34c38f', '#50a5f1', '#f1b44c', '#f46a6a', '#74788d', '#7C3AED', '#2a9d8f']);
 
             var attendanceLabels = Object.keys(attendance).map(function (k) { return String(k).replace(/_/g, ' '); });
             donut('#cds-analytics-attendance', attendanceLabels, Object.keys(attendance).map(function (k) { return attendance[k]; }), ['#34c38f', '#f1b44c', '#50a5f1', '#f46a6a', '#74788d', '#1e7df0']);

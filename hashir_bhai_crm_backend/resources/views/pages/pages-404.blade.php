@@ -4,12 +4,12 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Error 404 | Cyprus Digital Solution</title>
+        <title>Error 404 | Jaffri's CRM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Cyprus Digital Solution CRM & ERP" name="description" />
-        <meta content="Themesdesign" name="author" />
+        <meta content="Jaffri's CRM CRM & ERP" name="description" />
+        <meta content="Arsalan Jaffri" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon-cyprus.svg">
+        <link rel="shortcut icon" href="assets/images/favicon-jaffri.png">
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />

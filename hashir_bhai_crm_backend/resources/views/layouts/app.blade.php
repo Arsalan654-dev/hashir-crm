@@ -55,7 +55,7 @@
                 <div class="navbar-brand-box">
                     <a href="{{ url('/') }}" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/logo-cyprus-mark.svg') }}" alt="" height="26">
+                            <img src="{{ asset('assets/images/logo-jaffri-mark.png') }}" alt="" height="26">
                         </span>
                         <span class="logo-lg">
                             <img src="{{ asset(\App\Support\Branding::logo()) }}" alt="" height="30">
@@ -67,7 +67,7 @@
                             <img src="{{ asset(\App\Support\Branding::logo(true)) }}" alt="" height="30">
                         </span>
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/logo-cyprus-mark.svg') }}" alt="" height="26">
+                            <img src="{{ asset('assets/images/logo-jaffri-mark.png') }}" alt="" height="26">
                         </span>
                     </a>
                 </div>
@@ -91,19 +91,19 @@
                         <div class="navbar-brand-box">
                             <a href="/" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-cyprus-mark.svg" alt="" height="26">
+                                    <img src="assets/images/logo-jaffri-mark.png" alt="" height="26">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-cyprus.svg" alt="" height="28">
+                                    <img src="assets/images/logo-jaffri.png" alt="" height="28">
                                 </span>
                             </a>
 
                             <a href="/" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-cyprus-mark.svg" alt="" height="26">
+                                    <img src="assets/images/logo-jaffri-mark.png" alt="" height="26">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-cyprus-light.svg" alt="" height="30">
+                                    <img src="assets/images/logo-jaffri-light.png" alt="" height="30">
                                 </span>
                             </a>
                         </div>

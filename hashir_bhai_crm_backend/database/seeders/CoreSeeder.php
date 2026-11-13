@@ -27,12 +27,12 @@ class CoreSeeder extends Seeder
     private function seedBrandingSettings(): void
     {
         Setting::setValue('brand.name', Branding::NAME, 'brand');
-        Setting::setValue('brand.tagline', 'CRM & ERP Suite', 'brand');
-        Setting::setValue('brand.logo_dark', 'assets/images/logo-cyprus-light.svg', 'brand');
-        Setting::setValue('brand.logo_light', 'assets/images/logo-cyprus-light.svg', 'brand');
-        Setting::setValue('brand.logo_mark', 'assets/images/logo-cyprus-mark.svg', 'brand');
-        Setting::setValue('brand.favicon', 'assets/images/logo-cyprus-mark.svg', 'brand');
-        Setting::setValue('theme.primary_color', '#1f58c7', 'theme');
+        Setting::setValue('brand.tagline', 'Customer Relationship Management', 'brand');
+        Setting::setValue('brand.logo_dark', 'assets/images/logo-jaffri.png', 'brand');
+        Setting::setValue('brand.logo_light', 'assets/images/logo-jaffri-light.png', 'brand');
+        Setting::setValue('brand.logo_mark', 'assets/images/logo-jaffri-mark.png', 'brand');
+        Setting::setValue('brand.favicon', 'assets/images/favicon-jaffri.png', 'brand');
+        Setting::setValue('theme.primary_color', '#312E81', 'theme');
         Setting::setValue('theme.sidebar_style', 'light', 'theme');
         Setting::setValue('theme.topbar_style', 'light', 'theme');
         Setting::setValue('theme.layout', 'vertical', 'theme');
@@ -47,10 +47,10 @@ class CoreSeeder extends Seeder
         Setting::setValue('sales.commission_rate', '5', 'sales');
         Setting::setValue('payroll.working_days_per_month', '26', 'payroll');
         Setting::setValue('bot.enabled', '1', 'bot');
-        Setting::setValue('bot.name', 'Cyprus Assistant', 'bot');
+        Setting::setValue('bot.name', 'Jaffri Assistant', 'bot');
         Setting::setValue('bot.tone', 'friendly-professional', 'bot');
         Setting::setValue('bot.languages', 'en,ur,ar,hi', 'bot');
-        Setting::setValue('bot.system_instructions', 'You are the sales assistant for Cyprus Digital Solution. Qualify the lead, share product details from the knowledge base, collect order details and confirm before handoff.', 'bot');
+        Setting::setValue('bot.system_instructions', 'You are the sales assistant for Jaffri's CRM. Qualify the lead, share product details from the knowledge base, collect order details and confirm before handoff.', 'bot');
         Setting::setValue('bot.send_products_media', '1', 'bot');
     }
 
@@ -155,7 +155,7 @@ class CoreSeeder extends Seeder
     private function seedKnowledgeBase(): void
     {
         $articles = [
-            ['Company Overview', 'company_info', 'instruction', 'Cyprus Digital Solution is a software development and digital solutions company offering web development, mobile apps, ERP/CRM systems, and digital marketing services.'],
+            ['Company Overview', 'company_info', 'instruction', 'Jaffri's CRM is a customer relationship management platform for managing leads, customers, sales pipelines, invoices, and support workflows.'],
             ['Greeting Script', 'script', 'script', 'Greet the customer warmly and ask how you can help. If they are interested in services, ask about their business requirements and budget.'],
             ['Pricing Policy', 'pricing', 'policy', 'Never confirm final pricing without approval. Share starting ranges from the product catalogue and offer a consultation call for a detailed quote.'],
             ['Order Confirmation Flow', 'sales', 'instruction', 'Collect: full name, company, contact number, email, service/product required, budget, timeline. Confirm details back to the customer before marking the order as confirmed.'],

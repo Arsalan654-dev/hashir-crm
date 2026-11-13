@@ -4,12 +4,12 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Login | Cyprus Digital Solution</title>
+        <title>Login | Jaffri's CRM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Cyprus Digital Solution CRM & ERP" name="description" />
-        <meta content="Themesdesign" name="author" />
+        <meta content="Jaffri's CRM CRM & ERP" name="description" />
+        <meta content="Arsalan Jaffri" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon-cyprus.svg">
+        <link rel="shortcut icon" href="assets/images/favicon-jaffri.png">
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -34,8 +34,8 @@
 
                         <div class="mb-4 pb-2">
                             <a href="/" class="d-block auth-logo">
-                                <img src="assets/images/logo-cyprus.svg" alt="" height="30" class="auth-logo-dark me-start">
-                                <img src="assets/images/logo-cyprus-light.svg" alt="" height="30" class="auth-logo-light me-start">
+                                <img src="assets/images/logo-jaffri.png" alt="" height="30" class="auth-logo-dark me-start">
+                                <img src="assets/images/logo-jaffri-light.png" alt="" height="30" class="auth-logo-light me-start">
                             </a>
                         </div>
 
@@ -43,7 +43,7 @@
                             <div class="card-body p-4"> 
                                 <div class="text-center mt-2">
                                     <h5>Welcome Back !</h5>
-                                    <p class="text-muted">Sign in to continue to Cyprus Digital Solution.</p>
+                                    <p class="text-muted">Sign in to continue to Jaffri's CRM.</p>
                                 </div>
                                 <div class="p-2 mt-4">
                                     <form method="POST" action="{{ route('auth-login.post') }}">
@@ -99,7 +99,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center p-4">
-                            <p>© <script>document.write(new Date().getFullYear())</script> Cyprus Digital Solution. All rights reserved.</p>
+                            <p>© <script>document.write(new Date().getFullYear())</script> Jaffri's CRM. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
