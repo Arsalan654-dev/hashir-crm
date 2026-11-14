@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <title>Invoice List | Jaffri's CRM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Jaffri's CRM CRM & ERP" name="description" />
+        <meta content="Jaffri's CRM & ERP" name="description" />
         <meta content="Arsalan Jaffri" name="author" />
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon-jaffri.png">

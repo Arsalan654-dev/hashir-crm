@@ -23,19 +23,25 @@ class DemoDataSeeder extends Seeder
 {
     public function run(): void
     {
+        $demoPassword = env('CRM_DEMO_PASSWORD');
+
+        if (! is_string($demoPassword) || $demoPassword === '') {
+            throw new \RuntimeException('Set CRM_DEMO_PASSWORD in the environment before seeding CRM demo users.');
+        }
+
         $roles = Role::query()->pluck('id', 'slug');
         $departments = Department::query()->pluck('id', 'name');
         $designations = Designation::query()->pluck('id', 'title');
 
         $employees = [
-            ['Sarah Mitchell', 'sarah', 'sarah@cyprusdigital.com', 'sales-person', 'Sales', 'Senior Sales Executive', 2400, 5],
-            ['Daniel Osei', 'daniel', 'daniel@cyprusdigital.com', 'sales-person', 'Sales', 'Sales Executive', 1800, 4],
-            ['Ayesha Khan', 'ayesha', 'ayesha@cyprusdigital.com', 'sales-person', 'Sales', 'Sales Executive', 1600, 4],
-            ['Michael Petrou', 'michael', 'michael@cyprusdigital.com', 'sales-manager', 'Sales', 'Sales Manager', 3600, 2],
-            ['Elena Georgiou', 'elena', 'elena@cyprusdigital.com', 'hr-manager', 'Human Resources', 'HR Manager', 3200, 0],
-            ['Ravi Sharma', 'ravi', 'ravi@cyprusdigital.com', 'employee', 'Development', 'Software Engineer', 2800, 0],
-            ['Nadia Hassan', 'nadia', 'nadia@cyprusdigital.com', 'employee', 'Support', 'Support Agent', 1500, 0],
-            ['James Carter', 'james', 'james@cyprusdigital.com', 'admin', 'Management', 'Operations Manager', 4000, 0],
+            ['Sarah Mitchell', 'sarah', 'sarah@example.com', 'sales-person', 'Sales', 'Senior Sales Executive', 2400, 5],
+            ['Daniel Osei', 'daniel', 'daniel@example.com', 'sales-person', 'Sales', 'Sales Executive', 1800, 4],
+            ['Ayesha Khan', 'ayesha', 'ayesha@example.com', 'sales-person', 'Sales', 'Sales Executive', 1600, 4],
+            ['Michael Petrou', 'michael', 'michael@example.com', 'sales-manager', 'Sales', 'Sales Manager', 3600, 2],
+            ['Elena Georgiou', 'elena', 'elena@example.com', 'hr-manager', 'Human Resources', 'HR Manager', 3200, 0],
+            ['Ravi Sharma', 'ravi', 'ravi@example.com', 'employee', 'Development', 'Software Engineer', 2800, 0],
+            ['Nadia Hassan', 'nadia', 'nadia@example.com', 'employee', 'Support', 'Support Agent', 1500, 0],
+            ['James Carter', 'james', 'james@example.com', 'admin', 'Management', 'Operations Manager', 4000, 0],
         ];
 
         foreach ($employees as $index => [$name, $username, $email, $role, $department, $designation, $salary, $commission]) {
@@ -44,7 +50,7 @@ class DemoDataSeeder extends Seeder
                 [
                     'name' => $name,
                     'username' => $username,
-                    'password' => Hash::make('password'),
+                    'password' => Hash::make($demoPassword),
                     'phone' => '+357 99 '.str_pad((string) (100 + $index), 3, '0').' '.str_pad((string) (200 + $index), 3, '0'),
                     'role' => in_array($role, ['admin', 'super-admin'], true) ? 'admin' : 'user',
                     'role_id' => $roles[$role] ?? null,

@@ -200,7 +200,7 @@ class OrganizationTest extends TestCase
                 'password' => 'SuperSecret',
                 'encryption' => 'ssl',
                 'from_address' => 'no-reply@example.com',
-                'from_name' => 'Cyprus Digital',
+                'from_name' => "Jaffri's Tech Solutions",
             ],
             'billing' => [
                 'bank_details' => 'IBAN 123456',

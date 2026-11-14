@@ -40,12 +40,12 @@ class AuthenticationTest extends TestCase
     public function test_user_can_log_in_with_email(): void
     {
         $this->superAdmin([
-            'email' => 'owner@cyprusdigital.com',
+            'email' => 'owner@example.com',
             'password' => Hash::make('secret-password'),
         ]);
 
         $this->post('/auth-login', [
-            'username' => 'owner@cyprusdigital.com',
+            'username' => 'owner@example.com',
             'password' => 'secret-password',
         ])->assertRedirect(route('home'));
 
@@ -86,7 +86,7 @@ class AuthenticationTest extends TestCase
     public function test_password_reset_link_can_be_requested(): void
     {
         $user = $this->userWithPermissions(['dashboard.view'], [
-            'email' => 'reset@cyprusdigital.com',
+            'email' => 'reset@example.com',
         ]);
 
         $this->post('/auth-recoverpw', ['email' => $user->email])
@@ -98,7 +98,7 @@ class AuthenticationTest extends TestCase
     public function test_user_can_reset_password_with_a_valid_token(): void
     {
         $user = $this->userWithPermissions(['dashboard.view'], [
-            'email' => 'reset2@cyprusdigital.com',
+            'email' => 'reset2@example.com',
         ]);
 
         $token = Password::createToken($user);

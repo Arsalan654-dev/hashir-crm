@@ -120,7 +120,7 @@ class WhatsappWebhookTest extends TestCase
     public function test_knowledge_endpoint_returns_bot_configuration_and_products(): void
     {
         Setting::setValue('integrations.bot_shared_secret', 'bot-secret', 'integrations');
-        Setting::setValue('bot.name', 'Cyprus Assistant', 'bot');
+        Setting::setValue('bot.name', 'Jaffri Assistant', 'bot');
 
         KnowledgeArticle::query()->create([
             'title' => 'Pricing',
@@ -142,7 +142,7 @@ class WhatsappWebhookTest extends TestCase
         $response = $this->getJson('/api/bot/knowledge', ['X-Bot-Secret' => 'bot-secret']);
 
         $response->assertOk()
-            ->assertJsonPath('bot.name', 'Cyprus Assistant')
+            ->assertJsonPath('bot.name', 'Jaffri Assistant')
             ->assertJsonPath('knowledge.0.title', 'Pricing')
             ->assertJsonFragment(['name' => 'CRM Starter']);
     }

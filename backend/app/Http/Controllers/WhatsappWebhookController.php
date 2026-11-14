@@ -271,7 +271,7 @@ class WhatsappWebhookController extends Controller
 
         return response()->json([
             'bot' => [
-                'name' => Setting::getValue('bot.name', 'Cyprus Assistant'),
+                'name' => Setting::getValue('bot.name', 'Jaffri Assistant'),
                 'tone' => Setting::getValue('bot.tone', 'friendly-professional'),
                 'languages' => Setting::getValue('bot.languages', 'en'),
                 'instructions' => Setting::getValue('bot.system_instructions', ''),

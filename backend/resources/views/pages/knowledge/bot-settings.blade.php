@@ -36,7 +36,7 @@
                     <div class="card-body">
                         <div class="mb-3">
                             <label class="form-label">Bot Name</label>
-                            <input type="text" name="bot_name" class="form-control" value="{{ old('bot_name', $settings['bot.name'] ?? '') }}" placeholder="Cyprus Assistant">
+                            <input type="text" name="bot_name" class="form-control" value="{{ old('bot_name', $settings['bot.name'] ?? '') }}" placeholder="Jaffri Assistant">
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Tone</label>

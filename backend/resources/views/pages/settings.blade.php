@@ -27,7 +27,7 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label class="form-label">Company Name</label>
-                                <input type="text" name="company_name" class="form-control" value="{{ old('company_name', $company['company.name'] ?? 'Jaffri's CRM') }}">
+                                <input type="text" name="company_name" class="form-control" value="{{ old('company_name', $company['company.name'] ?? 'Jaffri\'s Tech Solutions') }}">
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label">Company Email</label>
